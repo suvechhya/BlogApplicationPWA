@@ -1,0 +1,14 @@
+@import './main.scss';
+
+// OVERALL STYLES
+.app-body{
+    margin-top: 10vh;
+    padding: 5vw;
+}
+// COMMON MEDIA QUERIES
+.MuiContainer-root{
+    @media screen and (max-width: $tablet-vertical) {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+}

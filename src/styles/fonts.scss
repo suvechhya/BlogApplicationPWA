@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LondrinaSolid-Black';
+    src: url('../assets/fonts/LondrinaSolid-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LondrinaSolid-Light';
+    src: url('../assets/fonts/LondrinaSolid-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LondrinaSolid-Regular';
+    src: url('../assets/fonts/LondrinaSolid-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LondrinaSolid-Thin';
+    src: url('../assets/fonts/LondrinaSolid-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Bold';
+    src: url('../assets/fonts/Rajdhani-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Light';
+    src: url('../assets/fonts/Rajdhani-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Medium';
+    src: url('../assets/fonts/Rajdhani-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Regular';
+    src: url('../assets/fonts/Rajdhani-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani-SemiBold';
+    src: url('../assets/fonts/Rajdhani-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: url('../assets/fonts/Righteous-Regular.ttf') format('truetype');
+}
+
+$logo-font: 'Righteous-Regular';
+$menu-font: 'Rajdhani-Regular';
+$header-1: 'LondrinaSolid-Black';
+$header-2: 'LondrinaSolid-Regular';
+$header-3: 'LondrinaSolid-Light';
+$header-4: 'LondrinaSolid-Thin';
+$body-1: 'Rajdhani-Bold';
+$body-2: 'Rajdhani-SemiBold';
+$body-3: 'Rajdhani-Medium';
+$body-4: 'Rajdhani-Regular';
+$body-5: 'Rajdhani-Light';
+
+
+// FONT SIZES
+$logo-font-size: 2em;

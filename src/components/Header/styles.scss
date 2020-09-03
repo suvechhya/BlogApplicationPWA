@@ -1,0 +1,32 @@
+@import '../../main.scss';
+
+.header{
+    height: 10vh;
+    background-color: $color2;
+    color: $color5;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+
+    &__brand{
+        padding-left: $spacing3;
+        font-family: $logo-font;
+        font-size: $logo-font-size;
+        flex-grow: 1;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: $spacing2;
+    }
+}

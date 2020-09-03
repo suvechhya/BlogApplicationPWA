@@ -1,0 +1,30 @@
+@import '../../main.scss';
+
+
+
+.login{
+    .MuiTabs-flexContainer{
+        justify-content: space-evenly;
+    }
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: $spacing5;
+    .MuiFormControl-root{
+        padding-top: $spacing3;
+        padding-bottom: $spacing3;
+    }
+    .MuiButton-root{
+        margin-top: $spacing3;
+    }
+
+    @media screen and (max-width: $mobile) {
+        padding: $spacing3;
+        .MuiFormControl-root{
+            padding-top: $spacing2;
+            padding-bottom: $spacing2;
+        }
+      }
+}
